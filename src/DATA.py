@@ -8,11 +8,12 @@ file_id = "1UbQLrXi-TSLJw44307AZkWn2kdAuMo83"
 url = f"https://drive.google.com/uc?id={file_id}"
 
 # Download the file using gdown
-output = 'Diabetes.csv'  # This is the filename it will save as
+output = 'Diabetes1.csv'  
 gdown.download(url, output, quiet=False)
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv(output)
-print(df.head())
+data = pd.read_csv(output)
+print(data.head())
+
 
 

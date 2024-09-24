@@ -17,3 +17,5 @@ from lightgbm import LGBMClassifier
 from sklearn.model_selection import KFold
 import warnings
 warnings.simplefilter(action = "ignore") 
+
+data.info()
