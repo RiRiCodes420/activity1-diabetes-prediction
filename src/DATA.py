@@ -12,7 +12,7 @@ output = 'Diabetes.csv'  # This is the filename it will save as
 gdown.download(url, output, quiet=False)
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv(output)
-print(df.head())
+data = pd.read_csv(output)
+print(data.head())
 
 
