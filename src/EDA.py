@@ -16,10 +16,9 @@ from sklearn.ensemble import GradientBoostingClassifier
 from lightgbm import LGBMClassifier
 from sklearn.model_selection import KFold
 import warnings
-<<<<<<< HEAD
 warnings.simplefilter(action="ignore")
 
-
+from DATA import data
 
 # Display the first few rows of the dataset
 data.head()
@@ -63,8 +62,3 @@ f, ax = plt.subplots(figsize=[20, 15])
 sns.heatmap(data.corr(), annot=True, fmt=".2f", ax=ax, cmap="magma")
 ax.set_title("Correlation Matrix", fontsize=20)
 plt.show()
-=======
-warnings.simplefilter(action = "ignore") 
-
-data.info()
->>>>>>> f817f8d085280456183f9e1145f2813a95c2c150
