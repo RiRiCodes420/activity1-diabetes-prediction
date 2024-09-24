@@ -14,9 +14,5 @@ gdown.download(url, output, quiet=False)
 # Read the CSV file into a DataFrame
 data = pd.read_csv(output)
 print(data.head())
-<<<<<<< HEAD
-=======
-
->>>>>>> f817f8d085280456183f9e1145f2813a95c2c150
 
 
