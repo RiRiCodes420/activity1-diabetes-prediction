@@ -1,5 +1,4 @@
 import gdown
-import pandas as pd
 
 # Google Drive file ID
 file_url = 'https://drive.google.com/uc?id=1mv1_iw0HqngqLUxqCnhy11AnNTCNcSKH'
@@ -88,3 +87,4 @@ f, ax = plt.subplots(figsize= [20,15])
 sns.heatmap(data.corr(), annot=True, fmt=".2f", ax=ax, cmap = "magma" )
 ax.set_title("Correlation Matrix", fontsize=20)
 plt.show()
+
